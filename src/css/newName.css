@@ -1,0 +1,11 @@
+.App_box{
+    height: 100%;
+    width: 100%;
+    flex-direction: column!important;
+}
+.nameBtn{
+    width: 10vw;
+    height: 10vh;
+    border: 1px solid #ccc;
+    margin-top: 60px;
+}

@@ -1,0 +1,15 @@
+{
+    "presets": [
+        "env",   //ES6 新javaScript一系列插件
+        "react"  //React一系列插件
+    ],
+    "plugins": [
+        "transform-object-rest-spread",
+        "transform-class-properties"
+    ],
+    "env": {
+        "test": {
+            "plugins": ["rewire"]  //用于单元测试
+        }
+    }
+}
